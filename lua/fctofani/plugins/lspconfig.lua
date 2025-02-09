@@ -28,6 +28,7 @@ return {
         "lemminx", -- xml
         "sqlls", -- SQL
         "bashls", -- bash
+        "remark_ls" -- markdown
     }
 
     mason.setup()
