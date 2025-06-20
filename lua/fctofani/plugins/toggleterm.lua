@@ -9,7 +9,7 @@ return {
         open_mapping = [[<C-t>]],
         shading_factor = 2,
         direction = "horizontal",
-    }) 
+    })
 
   end,
 }

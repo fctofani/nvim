@@ -1,4 +1,3 @@
-local global = vim.g
 local o = vim.opt
 
 o.number = true
@@ -15,4 +14,13 @@ o.showcmd = true
 o.showmatch = true
 o.inccommand = "split"
 o.termguicolors = true
+
+vim.diagnostic.config({
+  virtual_text = true,
+  signs = true,
+})
+
+o.updatetime = 500
+
+vim.cmd [[autocmd CursorHold * lua vim.diagnostic.open_float(nil, {focus=false})]]
 
