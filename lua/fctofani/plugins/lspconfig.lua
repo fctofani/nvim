@@ -14,6 +14,7 @@ return {
         "clangd", -- c and c++
         "java_language_server", -- java
         "eslint", -- javascript and typescript
+        "pyright", --pyhton
         "cssls", -- css and scss
         "hls", -- haskell
         "html", -- html

@@ -5,6 +5,7 @@ return {
       ensure_installed = {
         "clangd", -- c and c++
         "java_language_server", -- java
+        "pyright", --python
         "eslint", -- javascript and typescript
         "cssls", -- css and scss
         "hls", -- haskell
